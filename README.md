@@ -1,16 +1,18 @@
 # Let’s Create Docker Image
 
+https://docs.google.com/presentation/d/1tJ2E68p2GbasvQNy7-4Faby4pL0avNfJHNSMwkP_9Sc/edit#slide=id.p
+
 # Basics
 
-- What is Container?
+- What is a Container?
     
     Containers are isolated processes for your app and its components. Each component - the frontend React app, the Python API engine, and the database - runs in its own isolated environment, completely isolated from everything else on your machine.
     
-    This isolation ensures that they are completely separate from everything else on your machine, thereby reducing the risk of conflicts and enhancing security. 
+    This isolation ensures they are completely separate from everything else on your machine, thereby reducing the risk of conflicts and enhancing security. 
     
-    Furthermore, this setup enhances scalability as each component can be managed and scaled independently. It also improves the overall efficiency and performance of your software applications, as each component has its own resources and can be optimized individually.
+    Furthermore, this setup enhances scalability as each component can be managed and scaled independently. It also improves your software applications' overall efficiency and performance, as each component has its own resources and can be optimized individually.
     
-- What is Container Image?
+- What is a Container Image?
     
     A container image is a package that includes all of the files, binaries, libraries, and configurations to run a container.
     
